@@ -1,0 +1,61 @@
+
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+    background: #850846;
+    display: grid;
+    place-items: center;
+}
+
+h1{
+    position: relative;
+    top: 5rem;
+    color:#faee1c;
+}
+
+span{
+    color: #faee1c;
+}
+
+
+.contact-container{
+    position: relative;
+    top: 5rem;
+}
+
+input{
+    border: none;
+    width: 500px;
+    height: 20px;
+    border-bottom: 5px solid #faee1c;
+    background-color:#0e153a;
+    color: white;
+}
+
+ul li{
+    list-style: none;
+    color: yellow;
+    margin-left: -2rem;
+}
+
+
+.names{
+    color: #0e153a;
+    border: 1px solid black;
+    background: #f0f0f0;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.names:hover{
+    background: #c5e3f6;
+}
+
+a{
+    text-decoration: none;
+}
